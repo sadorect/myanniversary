@@ -6,13 +6,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--ff);
 }
 
 html{
     scroll-behavior: smooth;
     background-image: linear-gradient(var(--primary--color), var(--secondary-color));
     background-repeat: no-repeat;
+    font-family: var(--ff);
+}
+
+image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input, button, textarea {
+    font: inherit;
 }
 
 
@@ -24,5 +34,5 @@ html{
     --primary--color: #6C27FF;
     --secondary-color: #2A3068;
 
-    --ff: font-family: 'Montserrat', sans-serif;
+    --ff:'Montserrat', sans-serif;
 }
