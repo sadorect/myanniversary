@@ -1,1 +1,28 @@
 /* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:&display=swap');
+
+/* DOCUMENT RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff);
+}
+
+html{
+    scroll-behavior: smooth;
+    background-image: linear-gradient(var(--primary--color), var(--secondary-color));
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* VARIABLES */
+:root {
+    --primary--color: #6C27FF;
+    --secondary-color: #2A3068;
+
+    --ff: font-family: 'Montserrat', sans-serif;
+}
