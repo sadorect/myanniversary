@@ -42,44 +42,6 @@ h4 {
 }
 
 
-.header__nav {
-    width: min(500px, 80%);
-    background-color: white;
-    margin-inline: auto;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-nav ul {
-    display: none;
-}
-
-
-.hamburger {
-    display: block;
-}
-
-.hamburger .line {
-    width: 40px;
-    height: 7px;
-    background-color: #2A3068;
-    margin-block: 5px;
-    border-radius: 4px;
-}
-
-
-@media (min-width:60em) {
-
-}
-
-
-
-
-
 /* VARIABLES */
 :root {
     --primary--color: #6C27FF;
@@ -94,3 +56,48 @@ nav ul {
 
 
 }
+
+
+.header__nav {
+    width: min(1200px, 80%);
+    margin-inline: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.234));
+    border-radius: 10px;
+    padding: 10px;
+    color: --;
+
+}
+
+nav ul {
+    display: none;
+}
+
+
+.hamburger {
+    display: block;
+}
+
+.hamburger .line {
+    width: 40px;
+    height: 5px;
+    background-color: #2A3068;
+    margin-bottom: 3px;
+}
+
+
+@media (min-width:60em) {
+
+}
+
+
+
+
+
+
