@@ -208,6 +208,30 @@ nav ul {
     gap: 2rem;
 }
 
+.contact {
+    width: min(1600px, 90%);
+    margin-inline: auto;
+    gap: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+label {
+    display: flex;
+    color: var(--neutral-color);
+}
+
+
+
 
 
 
