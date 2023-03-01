@@ -231,8 +231,24 @@ label {
 }
 
 
+.contact {
+    width: min(1300px, 90%);
+    margin-inline: auto;
+} 
+
+input {
+    width: 100%;
+    padding: 2rem;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
 
 
+input:nth-child(4) {
+    height: 40rem;
+}
 
 
 
@@ -295,6 +311,8 @@ label {
         display: flex;
         justify-content: flex-end;
     }
+
+
 }
 
 
