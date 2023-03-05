@@ -230,7 +230,7 @@ label {
     color: var(--neutral-color);
 }
 
-
+/*  */
 .contact {
     width: min(1300px, 90%);
     margin-inline: auto;
